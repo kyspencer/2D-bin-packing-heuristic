@@ -4,7 +4,7 @@ This is my interpretation of Dahmani et. al. "Self-adaptive metaheuristics for s
 a multi-objective 2-dimensional vector packing problem," *Applied Soft Computing* (2014).
 It can be used by itself or in conjunction with an optimization algorithm. 
 
-The problem for which this implementation was geared to focus on sorting ideal items
+The problem for which this implementation focused on was sorting ideal items
 that have a weight and a height associated with them. Each bin also has a maximum weight
 and a maximum height allowance. 
 
