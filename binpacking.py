@@ -280,13 +280,9 @@ def initialrepack(x, y, starti, endi, bpp):
 
 def main():
     # Get info to create items
-    # n = eval(input('Please enter the number of items to be sorted: \n'))
-    # folder = input('Please enter the name of the folder where your input file is: \n')
-    # datafile = input('Please enter the name of the input file: \n')
-    n = 500
-    folder = '/Users/k9s/Documents/ObjectiveMethod/example/'
-    datafile = 'example500.txt'
-    random.seed(50)
+    n = eval(input('Please enter the number of items to be sorted: \n'))
+    folder = input('Please enter the name of the folder where your input file is: \n')
+    datafile = input('Please enter the name of the input file: \n')
 
     # Create item objects and initialize a bin packing problem class
     data = folder + datafile
