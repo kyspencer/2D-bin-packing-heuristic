@@ -8,7 +8,7 @@ The problem for which this implementation was geared to focus on sorting ideal i
 that have a weight and a height associated with them. Each bin also has a maximum weight
 and a maximum height allowance. 
 
-![alt text](https://github.com/kyspencer/2D-bin-packing-heuristic/example/bench1.pdf)
+![alt text](https://github.com/kyspencer/2D-bin-packing-heuristic/example/2Dbinpack.png)
 
 For binpacking.py to work, you need an input file containing a list of items. The example 
 included in the example folder contains 500 items. The first line indicates the max. weight
