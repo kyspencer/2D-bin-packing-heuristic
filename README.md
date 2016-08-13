@@ -12,6 +12,7 @@ and a maximum height allowance.
 
 For binpacking.py to work, you need an input file containing a list of items. The example 
 included in the example folder contains 500 items. The first line indicates the max. weight
-and height of a bin, and then each line after that is a weight and height for a given item.
+and height of a bin, and then each line after that is a weight and height for a given item. The
+example file was generated using 2DCPackGen.
 The items.py file creates item objects from an Item class, and the constraints.py file
 checks to make sure a given packing does not violate the constraints.
